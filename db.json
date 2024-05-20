@@ -1,0 +1,46 @@
+{
+  "projeto-voluntariado": [
+    {
+      "id": 1,
+      "tipo": "Doação de materiais",
+      "nomeProjeto": "Projeto Exemplo",
+      "temas": [
+        "Idosos",
+        "Animais"
+      ],
+      "inserirImagens": [
+        "assets/imgs/imagem1.jpg",
+        "assets/imgs/imagem2.jpg"
+      ],
+      "descricao": "Descrição do projeto de exemplo.",
+      "localizacao": "Localização do projeto",
+      "dias": [
+        "Segunda-Feira",
+        "Quarta-Feira",
+        "Sexta-Feira"
+      ],
+      "horario": "15h",
+      "infoBancaria": "123456789"
+    },
+    {
+      "id": 2,
+      "tipo": "Doação de materiais",
+      "nomeProjeto": "Teste img 2",
+      "temas": [
+        "Idosos",
+        "Animais"
+      ],
+      "descricao": "wefsd",
+      "localizacao": "localização dddd",
+      "dias": [
+        "Segunda-Feira",
+        "Terça-Feira"
+      ],
+      "horario": "15h- 20h",
+      "infoBancaria": "asdaf234",
+      "inserirImagens": [
+        "assets\\imgs\\1716169662735.jpg"
+      ]
+    }
+  ]
+}
