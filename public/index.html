@@ -1,7 +1,4 @@
-
-
 <!-- Se precisar de ajuda, consulte o arquivo README.md no diretório do projeto. -->
-
 
 <!DOCTYPE html>
 <html lang="en">
@@ -9,55 +6,76 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulário de Voluntariado</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 <body>
-    <h1>Formulário de Voluntariado</h1>
+    <div class="container">
+        <div class="form-header">
+            <h1>Formulário de Voluntariado</h1>
+        </div>
+        <form class="form" id="voluntariadoForm" enctype="multipart/form-data">
+            <div class="input-box">
+                <label for="tipo">Tipo de Voluntariado:</label><br>
+                <input type="checkbox" name="tipo" value="Doação de materiais"> Doação de materiais<br>
+                <input type="checkbox" name="tipo" value="Voluntariado"> Voluntariado<br>
+                <input type="checkbox" name="tipo" value="Contribuição Financeira"> Contribuição Financeira<br>
+            </div>
 
-    <form id="voluntariadoForm" enctype="multipart/form-data">
-        <label for="tipo">Tipo de Voluntariado:</label><br>
-        <input type="checkbox" name="tipo" value="Doação de materiais"> Doação de materiais<br>
-        <input type="checkbox" name="tipo" value="Voluntariado"> Voluntariado<br>
-        <input type="checkbox" name="tipo" value="Contribuição Financeira"> Contribuição Financeira<br><br>
+            <div class="input-box">
+                <label for="nomeProjeto">Nome do Projeto:</label><br>
+                <input type="text" id="nomeProjeto" name="nomeProjeto"><br>
+            </div>
 
-        <label for="nomeProjeto">Nome do Projeto:</label><br>
-        <input type="text" id="nomeProjeto" name="nomeProjeto"><br><br>
+            <div class="input-box">
+                <label for="temas">Temas:</label><br>
+                <input type="checkbox" name="temas" value="Idosos"> Idosos<br>
+                <input type="checkbox" name="temas" value="Animais"> Animais<br>
+                <input type="checkbox" name="temas" value="Hospitais"> Hospitais<br>
+                <input type="checkbox" name="temas" value="Crianças"> Crianças<br>
+                <input type="checkbox" name="temas" value="Pessoas e famílias necessitadas"> Pessoas e famílias necessitadas<br>
+                <input type="checkbox" name="temas" value="Ambientais"> Ambientais<br>
+                <input type="checkbox" name="temas" value="Educacionais"> Educacionais<br>
+            </div>
 
-        <label for="temas">Temas:</label><br>
-        <input type="checkbox" name="temas" value="Idosos"> Idosos<br>
-        <input type="checkbox" name="temas" value="Animais"> Animais<br>
-        <input type="checkbox" name="temas" value="Hospitais"> Hospitais<br>
-        <input type="checkbox" name="temas" value="Crianças"> Crianças<br>
-        <input type="checkbox" name="temas" value="Pessoas e famílias necessitadas"> Pessoas e famílias necessitadas<br>
-        <input type="checkbox" name="temas" value="Ambientais"> Ambientais<br>
-        <input type="checkbox" name="temas" value="Educacionais"> Educacionais<br><br>
+            <div class="input-box">
+                <label for="inserirImagens">Inserir Imagens:</label><br>
+                <input type="file" id="inserirImagens" name="inserirImagens" multiple><br>
+            </div>
 
-        <label for="inserirImagens">Inserir Imagens:</label><br>
-        <input type="file" id="inserirImagens" name="inserirImagens" multiple><br><br>
+            <div class="input-box">
+                <label for="descricao">Descrição:</label><br>
+                <textarea id="descricao" name="descricao"></textarea><br>
+            </div>
 
-        <label for="descricao">Descrição:</label><br>
-        <textarea id="descricao" name="descricao"></textarea><br><br>
+            <div class="input-box">
+                <label for="localizacao">Localização:</label><br>
+                <input type="text" id="localizacao" name="localizacao"><br>
+            </div>
 
-        <label for="localizacao">Localização:</label><br>
-        <input type="text" id="localizacao" name="localizacao"><br><br>
+            <div class="input-box">
+                <label for="dias">Dias Disponíveis:</label><br>
+                <input type="checkbox" name="dias" value="Segunda-Feira"> Segunda-Feira<br>
+                <input type="checkbox" name="dias" value="Terça-Feira"> Terça-Feira<br>
+                <input type="checkbox" name="dias" value="Quarta-Feira"> Quarta-Feira<br>
+                <input type="checkbox" name="dias" value="Quinta-Feira"> Quinta-Feira<br>
+                <input type="checkbox" name="dias" value="Sexta-Feira"> Sexta-Feira<br>
+                <input type="checkbox" name="dias" value="Sábado"> Sábado<br>
+                <input type="checkbox" name="dias" value="Domingo"> Domingo<br>
+            </div>
 
-        <label for="dias">Dias Disponíveis:</label><br>
-        <input type="checkbox" name="dias" value="Segunda-Feira"> Segunda-Feira<br>
-        <input type="checkbox" name="dias" value="Terça-Feira"> Terça-Feira<br>
-        <input type="checkbox" name="dias" value="Quarta-Feira"> Quarta-Feira<br>
-        <input type="checkbox" name="dias" value="Quinta-Feira"> Quinta-Feira<br>
-        <input type="checkbox" name="dias" value="Sexta-Feira"> Sexta-Feira<br>
-        <input type="checkbox" name="dias" value="Sábado"> Sábado<br>
-        <input type="checkbox" name="dias" value="Domingo"> Domingo<br><br>
+            <div class="input-box">
+                <label for="horario">Horário:</label><br>
+                <input type="text" id="horario" name="horario"><br>
+            </div>
 
-        <label for="horario">Horário:</label><br>
-        <input type="text" id="horario" name="horario"><br><br>
+            <div class="input-box">
+                <label for="infoBancaria">Informações Bancárias:</label><br>
+                <input type="text" id="infoBancaria" name="infoBancaria"><br>
+            </div>
 
-        <label for="infoBancaria">Informações Bancárias:</label><br>
-        <input type="text" id="infoBancaria" name="infoBancaria"><br><br>
-
-        <button type="button" onclick="enviarDados()">Submit</button>
-    </form>
-
+            <button type="button" class="button" onclick="enviarDados()">Submit</button>
+        </form>
+    </div>
     <script src="assets/js/script.js"></script>
 </body>
 </html>

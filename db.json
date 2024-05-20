@@ -41,6 +41,21 @@
       "inserirImagens": [
         "assets\\imgs\\1716169662735.jpg"
       ]
+    },
+    {
+      "tipo": "Voluntariado",
+      "nomeProjeto": "Teste após style",
+      "temas": [
+        "Animais",
+        "Hospitais"
+      ],
+      "descricao": "Teste após entrar com o css ver se está tudo funcional",
+      "localizacao": "localização xxxxxxxxx xxxxxxx-xxx",
+      "horario": "xxx - xxx",
+      "infoBancaria": "xxxxxxxxxxxxxxx",
+      "inserirImagens": [
+        "assets\\imgs\\1716171643313.jpg"
+      ]
     }
   ]
 }
