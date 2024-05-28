@@ -14,7 +14,7 @@ Para rodar este projeto em seu computador, siga estes passos:
      npm install multer
 5. Inicie o servidor executando o comando:
      node server.js
-6. Abra um navegador da web e vá para http://localhost:3000 para acessar o formulário de voluntariado.
+6. Abra um navegador da web e vá para http://localhost:PORTA para acessar o formulário de voluntariado.
 
 Certifique-se de que o servidor esteja em execução enquanto estiver usando o formulário.
 
