@@ -8,6 +8,10 @@ Para rodar este projeto em seu computador, siga estes passos:
 3. Abra um terminal (ou prompt de comando) e navegue até o diretório do projeto.
 4. Instale as dependências do projeto executando o comando:
      npm install
+     Caso necessario rode: 
+     npm install json-server 
+     npm install express
+     npm install multer
 5. Inicie o servidor executando o comando:
      node server.js
 6. Abra um navegador da web e vá para http://localhost:3000 para acessar o formulário de voluntariado.
